@@ -18,6 +18,8 @@ Then we run the similar test with pycocotb and we also do assertion which let us
 ### Second Test:
 This second test was made by the HardwareTeam site to show we can make reset async to run concurrently while the clock is running. This async test is particularly interesting as I modified the initial test showing how this counter is also synchronous to the clock.
 
+![alt text](https://github.com/Ahmed4812/cocotb_practice/blob/main/counter/Screenshot%202025-08-21%20at%2011.26.50%20PM.png)
+
 You will see in the image, the reset went high at 2ns but the counter didn't go 0 but in next clock rising edge. It is because the counter is sync with clocks rising edge.
 
 [MIT](https://choosealicense.com/licenses/mit/)
